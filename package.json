@@ -1,0 +1,27 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "pg": "^8.7.1",
+    "puppeteer": "^10.4.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.2",
+    "@types/pg": "^8.6.1",
+    "@types/puppeteer": "^5.4.4"
+  },
+  "scripts": {
+    "test": "ts-node test.ts",
+    "dev": "ts-node index.ts",
+    "start": "npx tsc && node ./out/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
